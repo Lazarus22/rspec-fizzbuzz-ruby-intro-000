@@ -4,10 +4,10 @@ require_relative './spec_helper.rb'
 
   def fizzbuzz(num)
     if num % 3 == 0 && num % 5 == 0
-      “FizzBuzz”
+      puts “FizzBuzz”
     elsif num % 3 == 0
-      “Fizz”
+      puts “Fizz”
     elsif num % 5 == 0
-      “Buzz”
+      puts “Buzz”
     end
   end
